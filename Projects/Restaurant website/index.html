@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!--Navigation bar   -->
+    
+    <nav class="navbar navbar-expand-lg navbar-light py-3 ">
+        <div class="container-fluid">
+            <h2>QUICK<span style="color: yellow;">EAT</span></h2>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+              <li class="nav-item">
+                <a class="nav-link text-dark"  href="#">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link  text-dark" href="#">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Testimonial</a>
+              </li>
+              
+            </ul>
+            
+              <button class="btn btn-warning" onclick="add()" >Order Now</button>
+            
+          </div>
+        </div>
+      </nav>
+
+
+<section class="body2">
+    <div>
+        <h2 id="best" >The Best Restaurants <br> in Your  Home</h2>
+        <select class="select" id="ps">
+            <option>Select an option</option>
+            <option value="option1">Order for Snacks</option>
+            <option value="option2">Order for Drinks</option>
+            <option value="option3">Order for Meat</option>
+            <option value="option4">Order for Fish</option>
+            <option value="option5">Order for Pizza </option>
+            <option value="option6">Order for swallow foods</option>
+            <option value='option7'>Order for Chicken</option>  
+
+        </select><br><br>
+        <button class="btn btn-warning"  style="margin-left: 100px;" onclick="add()">Order Now</button>
+            
+        
+    </div>
+    <div>
+        <img id="man" src="img1.png" >
+    </div>
+
+</section>
+
+<section style="margin-top: 100px;">
+<h2 class="text-center" style="font-size: 45px;">How it works</h2>
+<p class="text-center" style="font-size: 18px;">This are the 
+    process of ordering food or any packages from<br> our restaurant.It is a 
+    fast and efficient delivery.<br>All you need is to follow the 
+    steps below</p>
+
+</section>
+
+<section class="body3">
+    <div class="innerbody3">
+        
+        <img class="image"   src="location.png" >
+        <h3 ><b style="font-size: 30px;">01</b>Select Restaurant</h3>
+
+        <p>Firstly,go to the website www.quickeat.com,<br>Enter the page. then after that click on the location form,to fill in your address and your other details. </p>
+
+
+    </div>
+    <div class="innerbody3">
+           
+        <img class="image"  src="selection.png" >
+
+        <h3 style="margin-top:30px;"  ><b style="font-size: 30px;">02</b> select Menu</h3>
+        <p >Secondly,select any package your stomach desire,wheather family pack,or oneself pack.We have alots of pack ready for you</p>
+
+        
+    </div>
+    <div class="innerbody3">
+        
+        <img class="image"  src="delivery.png" >
+        <h3 style="margin-top:50px;"><b style="font-size: 30px; ">03</b> Select Delivery</h3>
+        <p style="margin-top:50px;"  >Our deivery is just 20-30mins,either payment on delivery or pay directly to our banck account</p>
+
+        
+    </div>
+</section>
+<section class="viewtop">
+    
+<center> <h2 >Views Of Our Restaurants</h2></center>
+
+</section>
+    
+<section class="body4">
+    <div class="container">
+        
+    <div class="row gy-5 ms-2 me-3">
+        <div class=" col-sm-6  col-lg-3 " >
+            
+            <div class="card border-0" >
+                <img src="view.jpeg" style="height:300px; width:100%;">
+            </div>
+
+        </div>
+        <div class=" col-sm-6 col-lg-3 ">
+            
+            <div class="card border-0" >
+                <img src="view1.jpeg"  style="height:300px;width:100%;">
+            </div>
+
+        </div> 
+               <div class=" col-sm-6 col-lg-3 ">
+            
+            <div class="card border-0" >
+                <img src="view2.jpeg"  style="height:300px;width:100%;">
+            </div>
+
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            
+            <div class="card border-0" >
+                <img src="view3.jpeg"  style="height:300px;width:100%;" >
+            </div>
+
+        </div>
+    </div>
+    </div>
+    
+</section>
+
+
+<section class="form">
+
+    <div class="details">
+        <h4>Phone Number:<span style="font-weight:normal;"> &nbsp;09035014430</span></h4>
+        <h4>Email:<span style="font-weight:normal;"> &nbsp;Lawalhussein@gmail.com</span></h4>
+        <h4>Location:<span style="font-weight:normal;"> &nbsp;Maryland Bus Stop,Lagos Nigeria</span></h4>
+        <ul>
+            
+        <li><img id="icon" src="insta.png"><img id="icon" src="twitter.png"><img id="icon" src="youtube.png"><img id="icon" src="facebook.png"></li>
+        </ul>
+        
+    </div>
+    
+    <div class="contact">
+        <center>
+        <label id="name">Full name</label><br>
+
+        <input type="text" id="text" ><br><br>
+
+        <label id="name">E-mail</label><br>
+
+        <input type="text" id="text" ><br><br>
+
+        <label id="name" >Message</label><br>
+        
+        <input type="text" id="text" style="padding-bottom: 100px; padding-left:100px;">
+    </center>
+    <br><br>
+    <center>
+    <button class="btn btn-outline-warning btn-lg">Submit</button>
+</center>
+</div>
+
+</section>
+
+
+
+
+
+<script>
+    var productselect =document.getElementById('ps')
+      
+    function add(){
+        var selectedoption =productselect.options[productselect.selectedIndex];
+        
+        var selectedvalue =selectedoption.value;  
+        var value;
+      if(selectedvalue =='option1'){
+        alert("SNACKS ORDERED!!!");
+      }
+    else  if(selectedvalue =='option2'){
+        alert("DRINKS ORDERED!!!");
+      }
+     else if(selectedvalue =='option3'){
+        alert("MEAT ORDERED!!!");
+      }
+     else if(selectedvalue =='option4'){
+        
+        alert("FISH ORDERED!!!");
+      }
+     else if(selectedvalue =='option5'){
+        alert("PIZZA ORDERED!!!");
+      }
+     else if(selectedvalue =='option6'){
+        alert("SWALLOW FOOD  ORDERED!!!");
+      }
+     else if(selectedvalue =='option7'){
+    
+        alert('CHICKEN ORDERED!!!');
+      }
+
+
+    else{
+        alert("PLEASE SELECT AN ORDER!!!")
+    }
+    }
+</script>
+
+
+</body>
+</html>
