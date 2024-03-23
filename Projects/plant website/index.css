@@ -1,0 +1,290 @@
+
+/* For the flora monk */
+h3 a{
+    text-decoration: none;
+    
+}
+/* For The nav bar */
+ul li a{
+    text-decoration: none;
+    font-size: 23px;
+    color: black;
+    
+}
+
+/* Navigation Section */
+#footer{
+background-position: center;
+    background-image: url('img/top.jpg');
+    height: 600px;
+    color: black;
+}
+
+
+
+.list{
+    list-style-type: none;
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+/* Styling for List Items  */
+li{
+    display: inline;
+    padding-right: 40px;
+}
+
+
+.welcome{
+    margin-top: 60px;
+    font-size: 40px;
+}
+center button{
+    margin-top: 30px;
+    padding:10px 30px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border-style: none;
+}
+
+
+
+/* Newplants Style Section */
+
+
+.Newplants{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+
+.Newplants div h1{
+    padding-left: 50px;
+}
+
+.Newplants div button:hover{
+    border: 1px solid green;
+    color: green;
+    background-color: white;
+}
+
+/* Products Section */
+.innerbody{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+ }
+
+ 
+@media(max-width:1000px){
+    .innerbody{
+        width: 500px;
+        display: block;
+        margin-top: 100px;
+        position: relative;
+        left: 12%;
+    }
+    .innerpic{
+        margin-top: 30px;
+    }
+    
+}
+
+@media(max-width:600px){
+    .innerbody{
+        width: 310px;
+        display: block;
+        margin-top: 100px;
+        position: relative;
+        left: 3%;
+    }
+    
+}
+
+.innerpic{
+    margin-left: 30px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.innerpic:hover{
+    border: 5px solid green;
+}
+
+
+.links{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+#border{
+    background-color:#e0e0e0;   
+}
+
+.image{
+    padding-right: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+/* Text of Products */
+#innertext{
+    padding-left: 30px;
+}
+
+/* Second Layer of Products */
+.innerbody2{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+@media(max-width:1000px){
+    .innerbody2{
+        width: 500px;
+        display: block;
+        margin-top: 100px;
+        position: relative;
+        left: 12%;
+    }
+
+    
+ 
+}
+
+
+@media(max-width:600px){
+    .innerbody2{
+        width: 310px;
+        display: block;
+        margin-top: 100px;
+        position: relative;
+        left: 3%;
+    }
+    
+    
+    
+}
+
+/* Story Section */
+
+
+
+.image3{
+    margin-top: 40px;
+    height: 660px;
+}
+
+
+.customer{
+    padding-top: 20px;
+}
+
+.innerbody4{
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width:768px){
+    
+.innerbody4{
+    display: block;
+    justify-content: center;
+}
+
+}
+
+/* Review section */
+
+.review{
+    margin-top: 150px;
+}
+.body4{
+    height: 180px;
+    width: 200px;
+    border-radius: 90%;
+}
+
+
+
+/* Gift Card/Offer Section */
+.innerbody5{
+    background-image: url('img/footer.jpg');
+    background-position: center;
+    height: 380px;
+    color: white;
+    padding-top: 130px;
+    margin-top: 100px;
+}
+
+ 
+
+/* Brand Qualities Section */
+.innerbody6{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: -40px;
+}
+
+@media(max-width:768px){
+    .innerbody6{
+        display: block;
+        
+    }
+    .health{
+        text-align: center;
+    }
+
+        
+}
+#inner6{
+    padding-left: 40px;
+    
+}
+
+/* Styling for footer section */
+footer{
+    margin-top:100px;
+    background-color: black;
+}
+
+footer p{
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+
+/* Catalog */
+.sub-menu-wrap{
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    width: 320%;
+}
+
+.sub-menu{
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+}
+
+.dropdown_links{
+    display: flex;
+    align-items: center;
+}
+
+.Footer{
+    margin-top: 60px;
+    text-align: center;
+    background-color: black;
+    color: white;
+padding: 20px;
+}

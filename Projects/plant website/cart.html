@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cart.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</he
+</head>
+<body>
+
+    <!-- Navigation -->
+    
+    <nav class="navbar navbar-expand-lg navbar-light py-3 ">
+      <div class="container-fluid">
+          <h3   id="flora"><a class="text-primary" href="index.html">Flora Monk </a></h3>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" style="border:3px solid white; background-color:white;"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+            <li class="nav-item">
+              <a href="index.html"><li>Home</li></a>
+            </li>
+
+            <li class="nav-item">
+              <a href="product.html"><li>Plant</li></a>
+            </li>
+
+            <li class="nav-item">
+              <a href="contact2.html"><li>Contact</li></a>
+            </li>
+            <li class="nav-item">
+              <a href="cart.html"><li>Cart</li></a>
+            </li>
+
+          </ul>
+          
+          
+        </div>
+      </div>
+    </nav>
+ 
+
+
+
+ 
+<table border="10">
+    <tr>
+        <td style="font-size: 20px; font-weight:bolder;">CART ITEMS</td>
+        <td style="font-size: 20px; font-weight:bolder;">PRICE</td>
+
+        <td style="font-size: 20px; font-weight:bolder;">QUANTITY</td>
+        <td style="font-size: 20px;  font-weight:bolder;">SUBTOTAL</td>
+    </tr>
+
+    <tr>
+        <td>
+
+            <select id="ps" style="background-color: gray;color:white;font-size:20px;">
+            
+            <option value="product1">Hoya Obvatum</option>
+            <option value="product2">Birdnest Japanese</option>
+            <option value="product3" >Calathea Beauty</option>
+            <option value="product4" >Zz Plants</option>
+            <option value="product5" >Sanseviera Laurentii</option>
+            <option value="product6" >Monstera Delicioa</option>
+            <option value="product7" > Straight Blade Scissorsa</option>
+            <option value="product8" >Garden Spade</option>
+            <option value="product9" >Cylindrical snake plant</option>
+        </select><br><br><br>
+        <button class="btn btn-danger" onclick="add()">Add</button>
+    </td>
+    
+            <td >
+                <div id="price" style="font-size: 20px;  font-weight:bolder;">$0.00</div>
+
+
+            </td>
+    
+    
+            <td id="quantity">
+              <br>
+              <span style="font-size: 20px; font-weight:bolder;" id="number">1</span>
+              <br><br>
+              <button class="btn btn-danger" id="incre">+</button>  
+              <button class="btn btn-danger" id="decre">-</button>
+            </td>
+    
+
+        <td> 
+          <br>
+        <span id="total" style="font-size: 20px;  font-weight:bolder;">$0.00</span><br><br>
+          <button class="btn btn-danger" onclick="cal()">Cal</button>
+        </td>
+        
+    </tr>
+</table>
+   
+<!-- Phone Size -->
+<section class="phoneSize">
+  <section class="Item">
+
+    <div>
+      <select id="pss" style="background-color: gray;color:white;font-size:20px;">      
+        <option value="hoya">Hoya Obvatum</option>
+        <option value="bird">Birdnest Japanese</option>
+        <option value="Product3" >Calathea Beauty</option>
+        <option value="Product4" >Zz Plants</option>
+        <option value="Product5" >Sanseviera Laurentii</option>
+        <option value="Product6" >Monstera Delicioa</option>
+        <option value="Product7" > Straight Blade Scissorsa</option>
+        <option value="Product8" >Garden Spade</option>
+        <option value="Product9" >Cylindrical snake plant</option>
+    </select><br><br><br>
+    <button class="btn btn-danger" onclick="addd()">Add</button>
+    </div>
+
+    <div>
+<p style="font-size: 30px; font-weight:bolder; ">PRICE</p>             
+     <p id="pricee" style="font-size: 30px;  font-weight:bolder; ">$0.00</p>                
+    </div>
+    </section>
+
+    <section class="quantity">
+      <div>
+
+        <p id="quantityy">
+          <br>
+          <span style="font-size: 30px; font-weight:bolder;margin-left:-50%;" id="numberr">1</span>
+          <br><br>
+          <button class="btn btn-danger" id="incree" style="margin-left: -53%;">+</button>  
+          <button class="btn btn-danger" id="decree">-</button>
+        </p>
+
+
+      </div>
+
+      <div>
+
+        <p> 
+          <br>
+        <span id="totall" style="font-size: 30px;  font-weight:bolder;margin-left:60%;">$0.00</span><br><br>
+          <button class="btn btn-danger" onclick="call()" style="margin-left: 50%;">Cal</button>
+        </p>
+
+      </div>
+    </section>
+</section>
+
+
+
+
+
+<script>
+
+
+    
+let count=0;
+
+
+document.getElementById('incre').onclick=function(){
+    count+=1;
+    document.getElementById('number').innerHTML=count;
+}
+
+
+
+document.getElementById('decre').onclick=function(){
+    count-=1;
+    document.getElementById('number').innerHTML=count;
+
+  
+}
+
+    var si =document.getElementById('price');
+    var total =document.getElementById('total');
+    var  productSelect=document.getElementById('ps');
+    
+function add(){
+ 
+    var selectedOption = productSelect.options[productSelect.selectedIndex];
+    var productValue = selectedOption.value;
+
+    var productPrice;
+
+    // Use an if statement to determine the price based on the selected option's value
+    if (productValue === 'product1') {
+      productPrice = 40.50;   //Hoya Obvatum
+    }
+     else if (productValue === 'product2') {
+      productPrice = 60.50;   //Birdnest Japanese
+    }
+    else if (productValue === 'product3') {
+        productPrice = 80.50;  //Calathea Beauty
+      } 
+      else if (productValue === 'product4') {
+        productPrice = 200.50;//ZZ PLANT
+      } 
+      else if (productValue === 'product5') {
+        productPrice = 80.50;   //Sanseviera Laurentii
+      } 
+ else if (productValue === 'product6') {
+    productPrice = 70.50; //Monstera Delicioa
+  } 
+  else if (productValue === 'product7') {
+    productPrice = 20.00; //Straight Blade Scissorsa
+  } 
+  else if (productValue === 'product8') {
+    productPrice = 15.50; //Garden Spade
+  } 
+  else if (productValue === 'product9') {
+    productPrice = 100.50; //cylindrical snake plant
+  } 
+
+
+    // Update the selected item and its price
+    
+    si.innerHTML = '$' + productPrice.toFixed(2);
+
+    price =productPrice.toFixed(2);
+
+  }
+
+
+  
+
+total+=productPrice
+si.textContent=total.toFixed(2)
+
+function cal(){
+  
+tot = Number(price);
+
+a = Number( document.getElementById('number').textContent);
+
+ var multiply=a*tot;
+ Number(multiply)
+document.getElementById('total').textContent ='$'+multiply;
+  
+}
+
+  
+
+
+/*Phone Size*/
+
+
+
+let countt=0;
+
+
+document.getElementById('incree').onclick=function(){
+    count+=1;
+    document.getElementById('numberr').innerHTML=count;
+}
+
+
+
+document.getElementById('decree').onclick=function(){
+    count-=1;
+    document.getElementById('numberr').innerHTML=count;
+
+    
+}
+
+
+  var sii =document.getElementById('pricee');
+  var totall=document.getElementById('totall');
+  var  productSelectt=document.getElementById('pss');
+  
+function addd(){
+
+  var selectedOptionn= productSelectt.options[productSelectt.selectedIndex];
+  var productValuee= selectedOptionn.value;
+
+  var productPricee;
+
+  // Use an if statement to determine the price based on the selected option's value
+  if (productValuee=== 'hoya') {
+    productPricee = 40.50;   //Hoya Obvatum
+  }
+   else if (productValuee === 'bird') {
+    productPricee = 60.50;   //Birdnest Japanese
+  }
+  else if (productValuee=== 'Product3') {
+      productPricee= 80.50;  //Calathea Beauty
+    } 
+    else if (productValuee=== 'Product4') {
+      productPricee= 200.50;//ZZ PLANT
+    } 
+    else if (productValuee=== 'Product5') {
+      productPricee= 80.50;   //Sanseviera Laurentii
+    } 
+else if (productValuee=== 'Product6') {
+  productPricee= 70.50; //Monstera Delicioa
+} 
+else if (productValuee=== 'Product7') {
+  productPricee= 20.00; //Straight Blade Scissorsa
+} 
+else if (productValuee=== 'Product8') {
+  productPricee= 15.50; //Garden Spade
+} 
+else if (productValuee=== 'Product9') {
+  productPricee= 100.50; //cylindrical snake plant
+} 
+
+
+  // Update the selected item and its price
+  
+  sii.innerHTML = '$' + productPricee.toFixed(2);
+
+  pricee =productPricee.toFixed(2);
+
+
+
+
+}
+
+
+totall+=productPricee
+sii.textContent=total.toFixed(2)
+
+function call(){
+  
+tott = Number(pricee);
+
+aa = Number( document.getElementById('numberr').textContent);
+
+ var multiplyy=aa*tott;
+ Number(multiplyy)
+document.getElementById('totall').textContent ='$'+multiplyy;
+  
+}
+
+
+
+</script>
+</body>
+</html>
+

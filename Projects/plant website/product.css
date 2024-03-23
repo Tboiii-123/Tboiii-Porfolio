@@ -1,0 +1,98 @@
+
+
+/* Body */
+body{
+    background-image: url('img/top.jpg');
+    background-size: cover;
+}
+
+/* For the flora monk */
+h3 a{
+    text-decoration: none;
+    
+}
+/* For The nav bar */
+ul li a{
+    text-decoration: none;
+    font-size: 23px;
+    color: black;
+    
+}
+
+/* Styling for List Items  */
+li{
+    display: inline;
+    padding-right: 40px;
+}
+
+#images{
+    height: 360px;
+}
+div div a{
+    text-decoration: none;
+}
+
+
+div div a:hover{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#product{
+    
+    border: 7px solid green;
+}
+#product:hover{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+
+
+@media(max-width:766px){
+    #product{
+        margin-left: 30%;
+        width: 300px;
+    }
+    #images{
+        width: 200px;
+        margin-left: 10%;
+        
+
+    }
+        
+
+} 
+
+@media(max-width:566px){
+    #product{
+        margin-left: 10%;
+        width: 300px;
+    }
+
+} 
+
+
+@media(max-width:366px){
+    #product{
+        margin-left: 1%;
+        width: 300px;
+    }
+
+} 
+
+/* Desigbning the anchor tag that lead t another page */
+
+
+/* Styling for footer section */
+.end{
+    padding-top: 30px;
+    background-color: black;
+    height: 70px;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+   
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="item.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light py-3 ">
+        <div class="container-fluid">
+            <h3   id="flora"><a class="text-primary" href="index.html">Flora Monk </a></h3>
+  
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="border:3px solid white; background-color:white;"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+              <li class="nav-item">
+                <a href="index.html"><li>Home</li></a>
+              </li>
+  
+              <li class="nav-item">
+                <a href="product.html"><li>Plant</li></a>
+              </li>
+  
+              <li class="nav-item">
+                <a href="contact2.html"><li>Contact</li></a>
+              </li>
+              <li class="nav-item">
+                <a href="cart.html"><li>Cart</li></a>
+              </li>
+  
+            </ul>
+            
+            
+          </div>
+        </div>
+      </nav>
+   
+  
+    <!-- Main product here -->
+<section class="sec1">
+        
+    <div class="Innerbody">
+        <img class="display" src="img/pic5.png" alt="No Image">
+    </div>
+
+    <!-- Price and other info about product -->
+<div  class="text" >
+    <p>Indoor plants, Large plants, Low maintenance</p>
+    
+    <h2>Monstera Deliciosa</h2>
+    <p>$70.50</p>
+    <p>Free shipping</p>
+
+    <button class="btn btn-outline-success" id="add">Add to cart</button><br><br><br><br>
+
+    <hr class="line">
+    <p style="font-weight: lighter;">Categories: Indoor plants, Large plants, Low maintenance</p>
+</div>
+</section>
+
+<!-- Description and more information about the main product -->
+<section class="decription">
+    DESCRIPTION
+        
+        
+        <p ><span style="font-weight: bolder;">Location:</span>It's loacted at  Mexico south to panama </p>
+        <p><span style="font-weight: bolder;">Watering cycle:</span>Add water frequently, but lighly</p>
+        <p><span style="font-weight: bolder;">Light Requirement:</span>It likes bright,indirect sunlight and will ususally be mhapiest near a blright window where un's rays dont shine directly to the leaves</p>
+        <p><span style="font-weight: bolder;">Uses:</span>It is used for Aesthetic Appeal and Medical plant</p>
+    
+    
+</section>
+
+<!-- Related Products here -->
+<section>
+    <center>
+        <h2 style="font-size: 50px; text-decoration:underline;color:green;">Related Products</h2>
+        </center>
+    
+    <div class="innerbody">
+        <div>
+            <img src="img/pic3.png" alt="No image " id="relatedproductimage">
+            <div id="innertext">
+            
+                <h3 style="font-size: 25px;"> calathea beauty star</h3>
+                <p >Air purifying</p>
+                <p >$100.50</p>
+            
+            </div>
+            
+        </div>
+    <div>
+        <img src="img/pic2.png" alt="No image" id="relatedproductimage">
+        <div  id="innertext">
+    
+            <h3 style="font-size: 25px;">Hoya Obovatum</h3>
+            <p >Indoor Plants</p>
+            <p >$40.50</p>
+        
+        </div>
+    </div>
+    <div>
+        <img src="img/pic4.png" alt="No image" id="relatedproductimage" >
+        
+        <div  id="innertext">
+           
+        <h3 style="font-size: 25px;">Zz Plant</h3>
+        <p>Air purifying</p>
+        <p >$200.00</p>
+    
+        </div>
+        
+    </div>
+</section>
+
+<footer class="Footer">
+    &copy; Copyright 2023 by Team Gladiators. All Rights Reserved
+</footer>
+
+
+<script>
+    document.getElementById('add').onclick=function(){
+        alert('Added to cart successfully')
+    }
+</script>
+
+</body>
+</html>

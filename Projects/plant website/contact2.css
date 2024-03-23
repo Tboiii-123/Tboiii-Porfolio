@@ -1,0 +1,95 @@
+
+/* Navigation Section */
+
+#flora{
+    margin-left: 30px;
+}
+
+/* For the flora monk */
+h3 a{
+    text-decoration: none;
+    
+}
+/* For The nav bar */
+ul li a{
+    text-decoration: none;
+    font-size: 23px;
+    color: black;
+    
+}
+li{
+    display: inline;
+    padding-right: 40px;
+}
+
+
+.body{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.innerbody{
+    font-size: 25px;
+}
+
+
+
+#input1{
+    width: 500px;
+    height: 40px;
+    text-align: start;
+}
+#input2{
+    width: 500px;
+    height: 160px;
+    
+}
+
+@media(max-width:850px){
+    
+.body{
+    margin-top: 50px;
+    display: block;
+    justify-content: space-around;
+}
+}
+@media(max-width:850px){
+
+    
+#input1{
+    width: 300px;
+    height: 40px;
+    text-align: start;
+}
+#input2{
+    width: 300px;
+    height: 160px;
+    
+}
+    
+    .form{
+        margin: 20px;
+    }
+    .flora{
+        margin-left: 70px;
+    }
+    
+}
+
+.follow{
+    margin-left: 30px;
+}
+
+
+#images{
+    padding-left: 60px;
+}
+.end{
+    padding-top: 30px;
+    background-color: black;
+    height: 70px;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+   
+}

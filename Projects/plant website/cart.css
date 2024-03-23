@@ -1,0 +1,123 @@
+
+/* Body */
+body{
+
+    background-image: url('img/cart2.jpeg');
+    background-size: cover;
+    height: 1000px;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+
+
+/* For the flora monk */
+h3 a{
+    text-decoration: none;
+    
+}
+/* For The nav bar */
+ul li a{
+    text-decoration: none;
+    font-size: 23px;
+    color: black;
+    
+}
+
+/* Styling for List Items  */
+li{
+    display: inline;
+    padding-right: 40px;
+}
+
+
+/* Removing of doubled borders  in the table */
+table{
+    margin-top: 200px;
+    border-collapse: collapse;
+    height: 300px;
+    width: 90%;
+    margin-left: 6%;
+    
+    
+
+}
+
+
+td{
+    padding-left: 40px;
+    
+    border: none;
+    
+}
+.phoneSize{
+    display: none;
+
+}
+
+@media(max-width:768px){
+    
+    td{
+        
+        padding-left: 2%;
+    }  
+    table{
+        width: 90%;
+    } 
+    
+    }
+    @media(max-width:600px){
+        table{
+            display: none;
+        }
+        .phoneSize{
+            margin-top: 200px;
+            display: block;
+        }
+        .end{
+            padding-top: 30px;
+            background-color:black;
+            height: 70px;
+            margin-top: 135px;
+            color: white;
+            text-align: center;
+           
+        }
+
+        }
+        
+
+
+/* Removed borders from each table data */
+
+/* Styling the button table.adding ab order to it  */
+.button{
+border-top:1px solid black ;
+}
+#button{
+    padding: 12px 20px;
+    border-radius: 6px;
+    margin-left: 20px;    
+
+}
+
+#buynow{
+    background-color:rgb(88, 125, 88);
+    color: white;
+    padding: 5px 12px;
+}
+
+
+/* PhoneSize Section */
+
+
+.Item{
+    display: flex;
+    justify-content: space-around;
+}
+
+.quantity{
+    display: flex;
+    justify-content: space-around;
+}
+
