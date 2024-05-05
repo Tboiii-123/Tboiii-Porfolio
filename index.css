@@ -2,6 +2,7 @@
 /* The nav bar part */
 header{
     background-color:  #343434;
+
 }
 
 li{
@@ -9,7 +10,8 @@ li{
 }
 
 #link{
-    color: white;
+    color: red;
+    
     transition: 1.2s;
     
 }
@@ -26,6 +28,9 @@ li{
 
 
 /* Firstbody section */
+
+
+
 .firstbody{
 
     padding-top: 130px;
@@ -35,6 +40,11 @@ li{
      padding-bottom: 100px;
     display: flex;
     justify-content:space-around;
+    
+    
+    
+    
+    
 }
 
 #mypic{
@@ -96,14 +106,28 @@ border-radius: 10% ;
 
 
 
-/* Second Section */
 
 }
+
+/* Second Section */
+
 .secondbody{
     padding:70px 30px;
     background-color: wheat;
+       
+}
+
+@media(max-width:600px){
+    .secondbody{
+        padding:70px 30px;
+        background-color: wheat;
+        
+    }
+    
+
     
 }
+
 
 .text2{
     text-align: center;
@@ -118,6 +142,9 @@ border-radius: 10% ;
 /* Third body section */
 .thirdbody{
     margin-top: 80px;
+    
+    
+    
 }
 
 .skills{
@@ -200,6 +227,8 @@ a{
     
     display: flex;
     justify-content: space-around;
+    
+    
 }
 
 form{
@@ -223,6 +252,8 @@ input,select{
 
 .contact{
     margin-top: 100px;
+    
+    
 }
 
 
@@ -250,6 +281,8 @@ input,select{
     
     display: block;
     padding-left: 30px;
+    
+    
 }
 input,select{
     border: none;
@@ -264,47 +297,12 @@ input,select{
 
 .contact{
     margin-left: -12%;
-}
-
-
-}
-
-
-.fifthbody{
-    background-image: url('img/bg2.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 100px;
-    display: flex;
-    justify-content: center;
-}
-#icon{
-    padding-left: 30px;
-
-}
-
-
-
-
-@media(max-width:600px){
-    
-.fifthbody{
-    background-image: url('img/bg2.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 50px;
-    display: block;
-    padding-left: 15%;
-    padding-bottom: 50px;
-    
-}
-#icon{
-    padding-left: 70px;
 
 }
 
 
 }
+
 
 
 
@@ -338,6 +336,8 @@ a{
     padding-top: 40px;
     font-size: 20px;
     justify-content: space-evenly;
+    
+    
 }
 
 .innerfooter{
@@ -366,6 +366,8 @@ a{
         height: 492px;
         display:block;
         padding-top: 40px;
+    
+    
     }
     
 .innerfooter{
