@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     
-    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
-    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
     
     <link rel="stylesheet" href="index.css">
          
@@ -15,7 +17,7 @@
     
       <!--Navigation bar   -->
     <header>
-        
+<!--         
       <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container-fluid">
             <img src="" alt="">
@@ -44,14 +46,51 @@
             
           </div>
         </div>
+      </nav> -->
+      
+    <nav class="navbar navbar-expand-lg " aria-label="Offcanvas navbar large">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Home.html"><img src="img/hussein1.jpg" width="95%" height="60px" style="border-radius: 50%;"></a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div style="background-color:black;" class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title text-white" id="offcanvasNavbar2Label">Menu</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                
+                    <li class="nav-item" >
+                      <a class="nav-link " href="#home" id="link">HOME</a>
+                    </li>
+      
+                    <li class="nav-item">
+                      <a class="nav-link " href="#about" id="link">ABOUT</a>
+                    </li>
+      
+                    <li class="nav-item">
+                      <a class="nav-link " href="#skill" id="link">SKILLS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="#fourthbody" id="link">CONTACT</a>
+                    </li>
+                  
+              </ul>
+            </div>
+          </div>
+        </div>
       </nav>
-
+     
+    
     </header>
     
       <!-- Navigation bar ends here -->
 
     
-    <section class="firstbody" id="home">
+    <section class="firstbody" id="home" >
         <div>
             
              <img src="img/hussein1.jpg" id="mypic" alt="No img">
@@ -199,7 +238,7 @@
     <center>
         <h1 style="color: white;">Contact Me</h1>
     </center>
-    <form  action="send.php" method="POST">
+    <form  action="#home" >
         <label for="">Name:</label><br><br>
         <input type="text" placeholder="Your Name" name="name"><br><br>
         <label >Email:</label><br><br>
@@ -218,7 +257,7 @@
         </Select><br><br><br>
 
         
-         <a  type="submit" class="btn btn-danger btn-lg"  name="send">Submit</a>
+         <button type="reset" href="#home" class="btn btn-danger btn-lg">Submit</button>
         
     </form>
 </div>
@@ -284,8 +323,6 @@
           </ul>
           </div>
         
-      </div>
-    </div>  
     
        </section>
       
@@ -309,7 +346,7 @@
        
         &copy; 2023. All Rights Reserved| Developed by Tboiii
             </footer>
-            
+     
 
 </body>
 </html>
