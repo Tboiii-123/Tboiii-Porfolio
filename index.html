@@ -6,10 +6,13 @@
     <title>Portfolio</title>
     
     
-    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
-
-    <script src="bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>
+    
+    
+     
     <link rel="stylesheet" href="index.css">
          
 </head>
@@ -18,21 +21,15 @@
       <!--Navigation bar   -->
     <header>
 
-      
-    <nav class="navbar navbar-expand-lg " aria-label="Offcanvas navbar large">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="Home.html"><img src="img/hussein1.jpg" width="95%" height="60px" style="border-radius: 50%;"></a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="Home.html"><img src="img/hussein1.jpg" width="95%" height="60px" style="border-radius: 50%;"></a>
           
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div style="background-color:black;" class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title text-white" id="offcanvasNavbar2Label">Menu</h5>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 
                     <li class="nav-item" >
                       <a class="nav-link " href="#home" id="link">HOME</a>
@@ -48,26 +45,30 @@
                     <li class="nav-item">
                       <a class="nav-link " href="#fourthbody" id="link">CONTACT</a>
                     </li>
+
                   
               </ul>
+
+              </div>
             </div>
-          </div>
-        </div>
-      </nav>
-     
+          </nav>
+    
     
     </header>
     
       <!-- Navigation bar ends here -->
 
     
+      <!-- First Body -->
+  
     <section class="firstbody" id="home" >
-        <div>
+       
+        <div class="hidden first">
             
              <img src="img/hussein1.jpg" id="mypic" alt="No img">
          
         </div>
-        <div class="text">
+        <div class="hidden first" id="text">
     
             <h1 style="color: red; font-size:60px;">Hello!!! </h1>
             <h2 style="font-size: 40px;color:white;">I'am Lawal Hussein</h2>
@@ -84,10 +85,16 @@
         </div>
     </section>
 
+
+<!-- End Here -->
+
+
+
+<!-- Second Body -->
     <section class="secondbody" id="about">
         <h3 style="text-align: center;font-size:40px;">About ME</h3>
         <p class="text2">
-            I  am an Experienced Frontend Developer with a passion for creating engaging and user-friendly interfaces. With over two years of hands-on experience, I specialize in crafting seamless digital experiences that captivate users. Proficient in HTML, CSS, and Bootstrap,angular js,jquery and javascript . I bring a meticulous approach to design and development, ensuring every detail is thoughtfully considered. My commitment to delivering high-quality web experiences is unwavering, driven by a desire to exceed expectations and create impactful solutions. Whether it's optimizing performance or enhancing accessibility, I approach every project with a strong eye for design and a dedication to excellence.
+            I  am an Experienced Frontend Developer with a passion for creating engaging and user-friendly interfaces. With over two years of hands-on experience, I specialize in crafting seamless digital experiences that captivate users. Proficient in HTML, CSS,  Bootstrap,angular js,jquery and javascript . I bring a meticulous approach to design and development, ensuring every detail is thoughtfully considered. My commitment to delivering high-quality web experiences is unwavering, driven by a desire to exceed expectations and create impactful solutions. Whether it's optimizing performance or enhancing accessibility, I approach every project with a strong eye for design and a dedication to excellence.
 
            </p>
     </section>
@@ -95,13 +102,14 @@
 
 
     <section class="thirdbody">
-            <h1 class="skills" id="skill"> My Skills</h1>
+            <h1 class="skills " id="skill"> My Skills</h1>
 
             <div class="container">
                 <div class="row" style="margin-top: 60px;">
-                    <div class="col-sm-6 col-md-6 col-lg-4 my-5">
+                    
+                    <div class="col-sm-6 col-md-6 col-lg-4 my-5  hidden" id="hidden">
                         
-                        <div class="card bg-dark" id="course">
+                        <div class="card bg-dark " id="course">
                             <a href="#">
                                 <img src="img/html.png" class="card-img-top" id="image2">
                             <div class="card-body">
@@ -114,10 +122,11 @@
                             
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-6 col-lg-4  my-4" >
+
+                    <div class="col-sm-6 col-md-6 col-lg-4  my-4 hidden" id="hidden">
                         <a href="#">
                             
-                        <div class="card bg-dark" id="course">
+                        <div class="card bg-dark " id="course">
                             <img src="img/css.png" class="card-img-top" id="image2">
                             <div class="card-body">
                                 <h3 class="card-header text-white">CSS</h3>
@@ -128,10 +137,10 @@
                             
                         </div>
                     
-                    <div class="col-lg-4  my-4">
+                    <div class="col-lg-4  my-4 hidden" id="hidden">
                         <a href="#">
                            <div class="java">
-                            <div class="card bg-dark" id="course">
+                            <div class="card bg-dark " id="course">
                                 <img src="img/js.png" class="card-img-top" id="image2">
                                 <div class="card-body"></div>
                                 <h3 class="card-header text-white" style="margin-top:-40px;">JAVASCRIPT</h3>
@@ -152,7 +161,7 @@
                         
                 <div class="row" style="margin-top: 60px;">
 
-                    <div class="col-sm-6 col-md-6 col-lg-4 my-5">
+                    <div class="col-sm-6 col-md-6 col-lg-4 my-5 hidden" id="hidden">
                         <a href="#">
                             
                         <div class="card bg-dark" id="course">
@@ -165,7 +174,7 @@
                         
                     </div>
 
-                    <div class="col-sm-6 col-md-6 col-lg-4 my-5">
+                    <div class="col-sm-6 col-md-6 col-lg-4 my-5 hidden" id="hidden" >
                         <a href="#">
                             
                         <div class="card bg-dark" id="course">
@@ -178,7 +187,7 @@
                     </div>
                     
 
-                    <div class="col-sm-11 col-md-11 col-lg-4  my-5">
+                    <div class="col-sm-11 col-md-11 col-lg-4  my-5 hidden" id="hidden">
                         <a href="#">
                             <div class="python">
                                 
@@ -202,76 +211,86 @@
 
 
     
-        
+        <!--Fourth Section  -->
+
+<section >
+    
 <section class="fourthbody" id="fourthbody" >
 
-<div>
-    <center>
-        <h1 style="color: white;">Contact Me</h1>
-    </center>
-    <form  action="#home" >
-        <label for="">Name:</label><br><br>
-        <input type="text" placeholder="Your Name" name="name"><br><br>
-        <label >Email:</label><br><br>
-        <input type="email" placeholder="Your Email" name="email"><br><br>
-
-        <label >Select Work:</label><br><br>
-
-        <Select>
-            <option>Services</option>
-            <option>Web developer</option>
-            <option>Python developer</option>
-            <option>Web designer</option>
-            <option>GUIs with Python</option>
-            <option >Animations With css</option>
+    <div>
+        <center>
+            <h1 style="color: white;">Contact Me</h1>
+        </center>
+        <form  action="#home" class="hidden" >
+            <label for="">Name:</label><br><br>
+            <input type="text" placeholder="Your Name" name="name"><br><br>
+            <label >Email:</label><br><br>
+            <input type="email" placeholder="Your Email" name="email"><br><br>
+    
+            <label >Select Work:</label><br><br>
+    
+            <Select>
+                <option>Services</option>
+                <option>Web developer</option>
+                <option>Python developer</option>
+                <option>Web designer</option>
+                <option>GUIs with Python</option>
+                <option >Animations With css</option>
+                
+            </Select><br><br><br>
+    
             
-        </Select><br><br><br>
+             <button type="reset" href="#home" class="btn btn-danger btn-lg">Submit</button>
+            
+        </form>
+    </div>
+    
+    
+    <div class="contact hidden">     
+    
+            <div  id="location">
+            <div>
+                <img src="img/location.png" alt="No image" id="loc">
+            </div>
+            <div style="padding-left: 30px;margin-top:20px;">
+                <p style="color: red;font-size:30px;">location</p>
+                <p style="font-size:20px;color:white;">Nigeria,Lagos</p>
+            </div>
+            </div>
+                        
+            <div  id="location">
+            <div style="margin-top:30px;">
+                <img src="img/phone.png" alt="No image" style="width: 100px;">
+            </div>
+            <div style="padding-left: 30px;margin-top:20px;">
+                <p style="color: red;font-size:30px;">Phone</p>
+                <p style="font-size:20px;color:white;">+234 9035014430</p>
+            </div>
+            </div>
+    
+            <div  id="location">
+            <div style="margin-top: 30px;">
+                <img src="img/gmail.png" alt="No image" id="loc">
+            </div>
+            <div style="padding-left: 30px;margin-top:20px;">
+                <p style="color: red;font-size:30px;">Email</p>
+                <p style="font-size:20px;color:white;">lawalhussein775@gmail.com</p>
+            </div>
+            </div>
+    
+    </div>
+    
+    
+        </section>
+    
+</section>
+<!-- Ends Here -->
 
-        
-         <button type="reset" href="#home" class="btn btn-danger btn-lg">Submit</button>
-        
-    </form>
-</div>
 
 
-<div class="contact">     
-
-        <div  id="location">
-        <div>
-            <img src="img/location.png" alt="No image" id="loc">
-        </div>
-        <div style="padding-left: 30px;margin-top:20px;">
-            <p style="color: red;font-size:30px;">location</p>
-            <p style="font-size:20px;color:white;">Nigeria,Lagos</p>
-        </div>
-        </div>
-                    
-        <div  id="location">
-        <div style="margin-top:30px;">
-            <img src="img/phone.png" alt="No image" style="width: 100px;">
-        </div>
-        <div style="padding-left: 30px;margin-top:20px;">
-            <p style="color: red;font-size:30px;">Phone</p>
-            <p style="font-size:20px;color:white;">+234 9035014430</p>
-        </div>
-        </div>
-
-        <div  id="location">
-        <div style="margin-top: 30px;">
-            <img src="img/gmail.png" alt="No image" id="loc">
-        </div>
-        <div style="padding-left: 30px;margin-top:20px;">
-            <p style="color: red;font-size:30px;">Email</p>
-            <p style="font-size:20px;color:white;">lawalhussein775@gmail.com</p>
-        </div>
-        </div>
-
-</div>
 
 
-    </section>
-
-
+<!-- Footer -->
     <footer class="footer1">
    
  <section class="innerfooter">   
@@ -311,13 +330,22 @@
 
       </footer>
 
+
+
       
-    <!-- Footer -->
+    
     <footer class="copyright">
        
         &copy; 2023. All Rights Reserved| Developed by Tboiii
-            </footer>
+    </footer>
      
+            
+            <!--Ends Here  -->
+            
+            
+    <script src="index.js"></script>
+
+
 
 </body>
 </html>
