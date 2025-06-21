@@ -1,0 +1,616 @@
+body{
+    background-color:black;
+    color: white;
+    
+}
+
+
+ul{
+    margin-left: 30%;
+    
+}
+ul li{
+    padding-left: 50%;
+    color: white;
+    
+}
+
+
+@media(max-width:700px){
+    ul{
+        margin-left: 0%;
+        
+    }
+    ul li{
+        padding-left: 10%;
+        
+    }
+    
+}
+
+/* Section 1 styling */
+
+.firstsection{
+    margin: 6%;
+
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.firstsection .inner1 button{
+    border-radius: 30px;
+    padding: 20px  40px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border:  4px solid white;
+
+    animation: changing-border-color 3s linear infinite;
+
+    
+}
+
+.firstsection .inner1 h1{
+    font-size: 50px;
+
+    color: rgb(129, 188, 212);
+
+    animation: changing-color 3s linear infinite;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.firstsection .inner1 p{
+    font-size: 21px;
+    width: 50%;
+    margin-top: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+
+
+.firstsection .inner2{
+    width: 1px;
+    height: 20px;
+
+}
+
+.firstsection .inner2 img{
+    
+
+    width: 600px;
+    margin-left: -600px;
+}
+
+
+
+/* At MEdia query for first section */
+
+@media(max-width:850px){
+
+    
+.firstsection{
+    margin: 2%;
+
+    display: block;
+    margin-top: 100px;
+}
+.firstsection .inner1 p{
+    font-size: 21px;
+    width: 90%;
+    margin-top: 40px;
+}
+.firstsection .inner1 button{
+    border-radius: 30px;
+    padding: 17px  35px;
+    background-color: black;
+    color: white;
+    border:  1px solid white;
+}
+
+.firstsection .inner1 h1{
+    font-size: 30px;
+
+    
+}
+
+.firstsection .inner2{
+    width: 1px;
+    height: 20px;
+
+}
+
+.firstsection .inner2 img{
+    
+
+    width: 600px;
+    margin-left: -280px;
+}
+
+
+
+}
+
+/* Ends Here */
+
+
+
+/* Section 2  styling */
+
+.secondsection{
+    margin: 6%;
+
+
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+.secondsection .inner1 p{
+    
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+}
+
+
+@media(max-width:1000px){
+
+    .secondsection .inner1 p{
+    
+        font-size: 30px;
+        text-align: center;
+        
+        
+    }
+    .secondsection .inner2  img{
+        height: 600px;
+        width: 80%;
+    }
+    
+    
+}
+
+
+
+@media(max-width:850px){
+        
+.secondsection{
+    margin: 2%;
+
+    
+    display: block;
+    margin-top: 400px;
+}
+
+.secondsection .inner1 button{
+    border-radius: 30px;
+    padding: 17px  35px;
+    background-color: black;
+    color: white;
+    border:  4px solid white;
+    cursor: pointer;
+
+}
+.secondsection .inner2  img{
+    height: 600px;
+    width: 100%;
+}
+
+.secondsection .inner1 p{
+    
+    font-size: 25px;
+    text-align: center;
+    margin-top: 0px;
+    
+    
+}
+
+}
+
+/* Ends Here */
+
+
+
+
+
+/* Section 3  styling */
+
+.thirdsection{
+    margin: 6%;
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.thirdsection .inner1 h1{
+    font-size: 50px;
+    animation: changing-color 3s linear infinite;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+    
+}   
+
+
+
+.thirdsection .inner1 p{
+    
+    font-size: 21px;
+    line-height: 60px;
+    width: 60%;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+
+.thirdsection .inner1 button{
+    border-radius: 30px;
+    padding: 20px  40px;
+    background-color: black;
+    color: white;
+    border:  1px solid white;
+    animation: changing-border-color 3s linear infinite;
+    cursor: pointer;
+    border:  4px solid white;
+    
+}
+
+
+
+
+@media(max-width:1000px){
+
+    
+.thirdsection .inner1 p{
+    
+    font-size: 21px;
+    line-height: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+}
+
+
+@media(max-width:850px){
+    
+.thirdsection{
+    margin: 2%;
+    
+    display: block;
+    margin-top: 100px;
+}
+
+.thirdsection .inner1 h1{
+    font-size: 30px;
+    
+}   
+
+
+.thirdsection .inner1{
+    text-align: center;
+}
+
+.thirdsection .inner1 p{
+    
+    font-size: 21px;
+    line-height: 30px;
+    width: 100%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+
+.thirdsection .inner1 button{
+    border-radius: 30px;
+    padding: 17px  35px;
+    background-color: black;
+    color: white;
+    border:  1px solid white;
+}
+
+.thirdsection ,.inner2 img{
+    width: 70%;
+}
+
+    
+}
+
+/* Ends Here */
+
+
+
+
+/* Section 4 styling */
+
+.fourthsection{
+
+    margin: 6%;
+    
+}
+
+ .fourthsection h1{
+    
+    text-align: center;
+    animation: changing-color 3s linear infinite;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 100px;    
+    font-size: 50px;
+    
+}
+
+
+.fourthsection .innersection{
+    margin-left: 9%;
+    display: flex;
+    background-image: url('img/Rectangle\ 10.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    padding: 30px;
+    
+    
+}
+
+.fourthsection .innersection .text{
+    width:50%;
+
+}
+
+.fourthsection .innersection .text #this{
+
+    font-size: 30px;
+
+    color: rgb(129, 188, 212);
+
+    
+    
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+.fourthsection .innersection .text #lorem{
+    padding-top: 20px;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fourthsection #images{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media(max-width:850px){
+ 
+    
+.fourthsection{
+
+    margin: 2%;
+    
+}
+
+ .fourthsection h1{
+    
+    text-align: center;
+    animation: changing-color 3s linear infinite;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 100px; 
+    font-size: 30px;
+    
+}
+
+.fourthsection .innersection{
+    margin-left: 2%;
+    display: block;
+    background-image: none;
+    
+    width: 100%;
+    padding: 30px;
+    
+    
+}
+
+.fourthsection .innersection .text{
+    width:90%;
+
+}
+
+
+}
+/* Ends Here */
+
+
+
+
+
+/* Section 5 styling */
+
+
+.fifthsection{
+    margin: 6%;
+    margin-top: 100px;
+}
+.fifthsection span{
+    text-align: center;
+    color: rgb(129, 188, 212);
+     
+}
+
+.fifthsection .innerclass{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.fifthsection .innerclass .inner h1{
+    font-size: 50px;
+     
+     color: rgb(129, 188, 212);
+     animation: changing-color 3s linear infinite;
+     font-family: 'Times New Roman', Times, serif;
+    
+
+        
+}
+
+
+
+.fifthsection .innerclass .inner p{
+    font-size: 21px;
+    width: 50%;
+    margin-top: 40px;
+    font-family: 'Courier New', Courier, monospace;
+
+    
+}
+
+
+
+.fifthsection .inner button{
+    border-radius: 30px;
+    padding: 20px  40px;
+    background-color: black;
+color: white;
+    border:  4px solid white;
+    cursor: pointer;
+    animation: changing-border-color 3s linear infinite;
+    
+    
+}
+
+
+
+
+
+@media(max-width:1000px){
+    
+.fifthsection .innerclass .inner p{
+    font-size: 21px;
+    width: 90%;
+    margin-top: 40px;
+    font-family: 'Courier New', Courier, monospace;
+
+    
+}
+
+
+}
+
+@media(max-width:850px){
+
+    
+.fifthsection{
+    margin: 2%;
+    margin-top: 100px;
+}
+.fifthsection span{
+    text-align: center;
+    color: rgb(129, 188, 212);
+     
+}
+
+.fifthsection .innerclass{
+    display: block;
+
+}
+
+
+.fifthsection .innerclass .inner h1{
+    font-size: 30px;
+     
+     color: rgb(129, 188, 212);
+     animation: changing-color 3s linear infinite;
+     font-family: 'Times New Roman', Times, serif;
+    
+
+        
+}
+
+
+
+.fifthsection .innerclass .inner p{
+    font-size: 21px;
+    width: 100%;
+    margin-top: 40px;
+    font-family: 'Courier New', Courier, monospace;
+
+    
+}
+
+
+}
+/* Ends Here */
+
+
+
+@keyframes changing-color {
+    0%{
+        color: blue;
+        
+    }
+    50%{
+        color: black;
+        
+    }
+    100%{
+        color: red;
+
+    }
+    
+
+
+}
+
+@keyframes changing-border-color {
+    0%{
+        border-color: blue;
+        
+    }
+    50%{
+        border-color: black;
+        
+    }
+    100%{
+        border-coloro: red;
+
+    }
+    
+
+
+}
+
+
+.hidden{
+    opacity: 0;
+    min-height: 80vh;
+    filter: blur(5px);
+            transform: translateX(-100%);
+            transition: all 1s;
+            
+            
+}
+
+.show{
+    opacity: 1;
+    transform: translateX(0);
+            filter: blur(0);
+            
+}

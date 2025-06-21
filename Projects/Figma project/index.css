@@ -1,0 +1,958 @@
+
+nav{
+    background-color: white;
+}
+#logo{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 2%;
+}
+ul{
+    margin-left: 20%;
+    
+}
+ul li{
+    
+    padding-left: 6%;
+}
+
+
+nav div ul li button{
+    width: 190%;
+    height: 40px;    
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    font-size: 11px;
+
+
+}
+
+
+@media(max-width:1000px){
+    nav div ul li button{
+        width: 100%;
+        
+    
+    }
+    ul{
+        margin-left: 0%;
+        
+    }
+    ul li{
+        
+        padding-left: 0%;
+    }
+    
+}
+
+/* Sdction1 */
+
+.section1{
+    padding-top: 170px;
+    
+    display: flex;
+    background-color: whitesmoke;
+    padding-left: 10%;
+    height: 90vh;
+
+
+
+}
+
+.section1 .first h1{
+    font-size: 60px;
+    width: 70%;
+    
+}
+
+
+.section1 .first button{
+    padding: 10px 40px;
+    color: white;
+    background-color: darkcyan;
+    border: none;
+    border-radius: 6px;
+    font-size: 19px;
+    transition: 1s;
+}
+.section1 .first button:hover{
+    font-size: 23px;
+
+}
+
+
+
+
+.first:nth-child(2){
+    transition-delay: 500ms;
+
+
+}
+.section1 #second{
+    margin-top: 0%;
+  }
+  
+
+
+
+@media(max-width:800px){
+    .section1{
+        padding-top: 250px;
+    
+        padding-left: 4%;
+        
+    }  
+    .section1 .first h1{
+        font-size: 64px;
+        width: 100%;
+    }
+      
+
+}
+
+@media(max-width:700px){
+    
+
+.section1{
+    padding-top: 100px;
+    
+    display: block;
+    height: 850px;
+    
+    
+}
+.section1 .first h1{
+    font-size: 50px;
+    width: 90%;
+    
+}
+.section1 #second{
+    margin-top: -50%;
+  }
+
+  
+   
+}
+
+
+@media (max-width:350px){
+    .section1 #second{
+        margin-top: 0%;
+      }
+    
+        
+}
+
+/* Ends Here */
+
+
+
+
+
+
+
+/* Section 2 styling */
+
+.section2{
+    margin-top: 150px;
+}
+.section2 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 div h1{
+    font-size: 50px;
+    font-weight: bolder;
+
+}
+.section2 div .manage{
+    margin-top: 30px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+    width: 50%;
+    
+}
+
+.section2 div p{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+.section2 span{
+    display: flex;
+    justify-content: center;
+}
+
+.section2 span img{
+    margin-top: 30px;
+    padding-left: 10%;
+    width: 14%;
+
+}
+
+@media(max-width:700px){
+
+    .section2 span img{
+        
+        padding-left: 2%;
+        width: 12%;
+    }
+    .section2 div .manage{
+        margin-top: 30px;
+        font-size: 40px;
+        text-align: center;
+        font-weight: bolder;
+        width: 90%;
+        
+    }
+    
+    
+}
+/* Ends Here */
+
+
+
+
+
+
+
+
+/* Section3 styling */
+
+.section3{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+   
+}
+
+.section3 .inner{
+    margin-top: 50px;
+    margin-left: 1%;
+    padding: 10px 22px;
+    box-shadow:1px 1px 30px black;
+
+    cursor: pointer;           
+}
+
+ .inner:nth-child(2){
+    transition-delay: 300ms;
+
+}
+ .inner:nth-child(3){
+    transition-delay: 500ms;
+    
+
+}
+
+
+
+/* To center an img in a container */
+
+.section3 .inner img{
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.section3 .inner :hover{
+
+font-size: 23px;
+
+}
+
+
+.section3 .inner #member{
+    font-size: 20px;
+
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+.section3 .inner p{
+    text-align: center;
+    
+}
+
+@media(max-width:700px){
+    .section3{
+        display:block;
+        
+    }    
+    .section3 .inner{
+        margin-top: 50px;
+        
+        padding: 10px 22px;
+        box-shadow:1px 1px 30px black;
+        width: 90%;
+        margin-left: 5%;
+                
+    }
+    
+
+}
+
+
+
+/* Ends Here */
+
+
+.section4{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;       
+}
+
+.section4 div img{
+    height: 400px;
+    
+}
+
+
+.section4 .inner{
+    margin-top: 70px;
+    width: 40%;
+}
+
+.section4 #first :nth-child(2){
+    transition-delay: 800ms;
+    
+}
+
+
+.inner:nth-child(2){
+    transition-delay: 300ms;
+
+}
+ .inner:nth-child(3){
+    transition-delay: 500ms;
+    
+
+}
+
+.section4 .inner button{
+    padding: 10px 40px;
+    color: white;
+    background-color: darkcyan;
+    border: none;
+    border-radius: 6px;
+    font-size: 19px;
+transition: 1s;
+
+}
+
+
+.section4 .inner button:hover{
+font-size: 23px;
+
+}
+
+
+@media(max-width:700px){
+    .section4{
+        margin-top: 200px;
+        display: block;
+           
+    }
+    .section4 .inner{
+        margin-top: 40px;
+        
+        width: 90%;
+        text-align: center;
+    }
+    
+.section4 div img{
+    
+    width: 80%;
+    
+}
+
+    
+}
+
+/* Ends Here */
+
+
+
+
+
+
+/* Section 5 */
+.section5{
+    background-color: whitesmoke;
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.section5 div h1{
+    width: 60%;
+}
+
+.section5 .inner{
+    margin-top: -60px;
+    
+}
+
+.section5   .inner .inner2{
+        display: flex;
+        justify-content: space-between;   
+     
+}
+
+.section5 .inner .inner2 #inner3{
+    margin-left: 60%;
+}
+
+.section5 .inner div p img{
+    width: 50%;
+}
+
+.section5 .inner .inner2 div p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+@media(max-width:1000px){
+
+    .section5{
+        
+        display: block;
+       
+    }
+    
+
+    .section5 div h1{
+        width: 90%;
+        text-align: center;
+    }
+    
+    .section5   .inner .inner2{
+    
+    display: flex;
+    justify-content: space-evenly;
+    
+    }
+
+    
+    .section5 .inner{
+        margin-top: 100px;
+        
+    }
+    
+    
+
+}
+
+
+@media(max-width:600px){
+    .section5{
+        
+        display: block;
+       
+    }
+
+    .section5 div h1{
+        width: 90%;
+        text-align: center;
+    }
+
+
+    .section5   .inner .inner2{
+    
+        display: flex;  
+        justify-content: space-evenly;
+    }
+    
+    .section5 .inner div p img{
+        width: 40%;
+    }
+    
+    
+    .section5 .inner{
+        margin-top: 100px;
+        
+    }
+
+    .section5 .inner .inner2 #inner3{
+        margin-left: 0%;
+    }
+    
+    
+}
+
+/* Ends Here */
+
+
+
+
+/* Styling for Section6 */
+
+.section6{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.section6 div img{
+    height: 400px;
+    width: 70%;
+    
+}
+
+.section6 .inner{
+    width: 40%;
+}
+
+.section6 .inner button{
+    padding: 10px 40px;
+    color: white;
+    background-color: darkcyan;
+    border: none;
+    border-radius: 6px;
+    font-size: 19px;
+transition: 1s;
+
+
+}
+
+
+.section6 .inner button:hover{
+font-size: 23px;
+
+}
+
+
+
+
+
+@media(max-width:700px){
+    .section6{
+        
+        display: block;
+        margin-bottom: 100px;
+        
+    }
+    .section6 div img{
+        height: 400px;
+        
+    }
+    
+    .section6 .inner{
+        width: 90%;
+        text-align: center;
+    }
+    
+}
+
+/* Ends Here */
+
+
+
+/* styling for Section7 */
+
+.section7{
+    background-color: whitesmoke;
+    padding-top: 150px;
+    display: flex;
+    justify-content:space-evenly;
+    padding-bottom: 100px;
+}
+
+
+.section7 .inner {
+    
+    width: 40%;
+
+}
+
+.section7 .inner span{
+    display: flex;
+    margin-left:-20%;
+}
+.section7 .inner span img{
+    
+    padding-left: 5%;
+    
+    
+}
+
+
+
+
+
+@media(max-width:700px){
+
+    
+.section7{
+    
+    display: block;
+    
+}
+
+.section7 div img{
+    
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.section7 .inner {
+    
+    width: 90%;
+    text-align: center;
+}
+.section7 .inner span img{
+    width: 10%;
+    padding-left: 2%;
+    
+    
+}
+
+    
+}
+
+/* Ends Here */
+
+
+.section8{
+    margin-top: 100px;
+    
+}
+.section8 h1{
+    text-align: center;
+}
+
+.section8  p{
+    text-align: center;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.section8 .images{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.section8 .images .inner{
+    position: relative;
+    display: inline-block;
+
+}
+
+
+/* Overlay1 part */
+
+.section8 .images .inner .overlay{
+
+    position: absolute;   
+    
+    display: block;
+    
+    background-color: whitesmoke;
+    
+    cursor: pointer;
+    width: 91%;
+    left: 5%;
+    top:150px;
+    border-radius: 10px;
+    height: 140px;
+    box-shadow:1px 1px 30px black;
+    padding: 20px 10px;
+    
+ 
+}
+
+
+
+.section8 .images .inner .overlay p{
+
+    text-align: center;
+    width: 100%;
+}
+
+
+
+            
+
+
+@media(max-width:800px){
+    
+.section8{
+    margin-top: 100px;
+    
+}
+.section8 h1{
+    text-align: center;
+}
+
+.section8  p{
+    text-align: center;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.section8 .images{
+    display: block;
+
+}
+.section8 .images .inner{
+    position: relative;
+    display: inline-block;
+
+    margin-top: 130px;
+    margin-left: 10%;
+}
+
+
+.section8 .images .inner .overlay{
+
+    position: absolute;   
+    
+    display: block;
+    
+    background-color: whitesmoke;
+    
+    cursor: pointer;
+    width: 91%;
+    left: 5%;
+    
+    border-radius: 10px;
+    height: 140px;
+    box-shadow:1px 1px 30px black;
+    padding: 20px 10px;
+    
+ 
+}
+
+
+
+.section8 .images div .overlay p{
+
+
+    text-align: center;
+    width: 100%;
+}
+
+
+
+}
+
+/* Ends Here */
+
+
+/* Styling for Section9 */
+
+
+.section9{
+    margin-top: 300px;
+}
+.section9 h1{
+    text-align: center;
+}
+.section9 button{
+    padding: 10px 40px;
+    color: white;
+    background-color: darkcyan;
+    border: none;
+    border-radius: 6px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 19px;
+    transition: 1s;
+    
+}
+
+.section9 button:hover{
+font-size: 23px;
+
+}
+
+
+/* Ends Here */
+
+
+
+/* Footer */
+
+footer{
+    margin-top: 100px;
+    background-color: darkslategrey;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer .logo p img{
+    cursor: pointer;
+}
+
+footer .outer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .outer .inner{
+    margin-right: 5%;
+
+}
+/* footer .inner h4{
+    margin-left: 10%;
+} */
+
+footer .outer .inner ul{
+    list-style: none;
+    width: 100%;
+    margin-left: -10%;
+    
+}
+
+footer .outer .inner ul li{
+    padding-bottom: 15px;
+    text-wrap: nowrap;
+    cursor: pointer;
+    
+}
+
+footer .outer .secondouter{
+    display: flex;
+}
+
+footer .outer .secondouter .inner ul li{
+    padding-bottom: 15px;
+    text-wrap: nowrap;
+    
+}
+
+footer .outer .secondouter .inner  input{
+    background-color:darkgrey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    
+
+}
+
+@media(max-width:800px){
+    footer .logo{
+     display: block;
+     text-align: center; 
+    }
+    footer{
+        display: block;
+    }   
+    footer .outer{
+        display: flex;
+        
+    }
+    
+footer .outer .secondouter{
+    display: flex;
+}
+
+
+
+
+}
+
+@media(max-width:600px){
+
+    footer .outer .secondouter {
+        display: block;
+    }
+
+    footer .outer .secondouter #inner{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: -55%;
+    }
+    footer .outer .secondouter .inner  input{
+ 
+        width: 50%;
+        }
+           
+}
+
+
+/* Ends Here */
+
+.hid{
+    
+    opacity: 0;
+    
+    filter: blur(5px);
+            transform: translateX(-100%);
+            transition: all 1s;
+    
+}
+.hidden{
+
+    opacity: 0;
+    min-height: 75vh;
+    filter: blur(5px);
+            transform: translateX(-100%);
+            transition: all 1s;            
+}
+.show{
+    opacity: 1;
+    transform: translateX(0);
+            filter: blur(0);
+        
+            
+}
+
+@media(max-width:700px){
+    
+.hid{
+    
+    opacity: none;
+    
+    filter: none;
+            transform:none;
+            transition: none;
+
+    
+}
+.hidden{
+
+    opacity: none;
+    
+    filter: none;
+            transform:none;
+            transition: none;
+                   
+}
+.show{
+
+        
+    opacity: none;
+    
+    filter: none;
+            transform:none;
+            
+}
+
+}
+
