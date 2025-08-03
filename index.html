@@ -10,7 +10,10 @@
     
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>
-    
+    <!-- AOS Animation CSS -->
+  
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
     
     <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/components/skills/skill-1/assets/css/skill-1.css">
@@ -64,19 +67,24 @@
     <section class="firstbody" id="home" >
        
         <div class="hidden first">
+          
             
              <img src="img/hussein1.jpg" id="mypic" alt="No img">
          
         </div>
         <div class="hidden first" id="text">
     
-            <h1 style="color: red; font-size:50px;" >Hi there</h1>
-            <h2 style="font-size: 30px;color:white;">I am Lawal Hussein</h2>
-            <p style="font-size: 18px;color:white;" >A Python<span style="color: red;"> </span>and Web Developer who loves turning ideas into powerful digital experiences. </p>
+           
+        <h1 class="mt-4" data-aos="fade-up" style="color: red; font-size:50px;">Hi there</h1>
+      <h2 data-aos="fade-up" data-aos-delay="200" style="font-size: 30px;color:white;">I am Lawal Hussein</h2>
+      <p data-aos="fade-up" data-aos-delay="400" style="font-size: 18px;color:white;">
+        A Python and Web Developer who loves turning ideas into powerful digital experiences.
+      </p>
+      
             <div class="buttons">
                 
             
-             <a href="img/Front end developer resume.pdf" class="btn btn-danger btn-lg " id="button" download>Download Cv</a>
+             <a href="img/Lawal Hussein resume.pdf" class="btn btn-danger btn-lg " id="button" download>Download Cv</a>
              
             
             </div>
@@ -88,337 +96,207 @@
 <!-- End Here -->
 
 
+    <!-- About Me Section -->
+<section class="py-5 bg-light" id="about">
+  <div class="container">
+    <h3 class="text-center mb-4" style="font-size: 40px; color: red;" data-aos="fade-up">About Me</h3>
+    <p class="lead text-center" data-aos="fade-up" data-aos-delay="200" style="font-size: 20px; color: black;">
+      I am a <strong>Python Django Developer</strong> and <strong>Web Developer</strong> with 3 years of experience building scalable, secure, and user-focused applications across SaaS, fintech, and data-driven platforms. I specialize in Django’s MVT architecture, relational databases (PostgreSQL, MySQL), RESTful APIs, and seamless frontend integration.
+    </p>
+    <p class="lead text-center" data-aos="fade-up" data-aos-delay="300" style="font-size: 20px; color: black;">
+      My work includes implementing AI-powered features, automating tasks, and ensuring efficient performance. I follow Agile and DevOps practices, using Git, CI/CD pipelines, and test-driven development (TDD) to deliver clean, maintainable, and innovative solutions.
+    </p>
+  </div>
+</section>
 
-<!-- Second Body -->
-    <section class="secondbody hidden " id="about">
-        <h3 style="text-align: center;font-size:40px; color:red;">About Me</h3>  
-         <p class="text">
-         I am a <span id="special"> Python Django Developer</span> and a <span id="special"> Web Developer</span>  with 3 years of professional experience architecting,
-developing, and deploying robust, scalable, and secure web applications across SaaS,
-fintech, and data-driven platforms. I have an expert command of the Django framework,
-including the Model-View-Template (MVT) architecture, advanced ORM optimization, and
-relational database design using PostgreSQL, MySQL, and SQLite. My technical expertise
-extends to RESTful API development, asynchronous task processing, and frontend
-integration, enabling me to build high-performance applications with seamless user
-experiences. I have implemented AI-powered features such as chatbots and intelligent
-automation, adding value to dynamic web platforms. I thrive in Agile and DevOps
-environments, utilizing CI/CD pipelines, Git, and test-driven development (TDD) to deliver
-reliable, maintainable code. With a strong foundation in software architecture, security
-best practices, and data protection compliance, I am committed to developing innovative
-solutions that solve real-world problems at scale.
-           </p>
-    </section>
 
 <!-- Ends Here -->
 
-<!-- Third Section -->
-<section class="bsb-skill-1  py-3 py-md-5 thirdbody" id="skill">
-    
-  <div class="container">
-      <div class="row justify-content-md-center">
-        <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-          <h2 class="mb-4 display-5 text-center text-white">Skills</h2>
-          <p class="text-white  mb-5 text-center lead fs-4">
-            I am a skilled and passionate Python and web developer with expertise in building web applications using Django.
-             My skill set includes frontend development with HTML, CSS, JavaScript, and Bootstrap, as well as a strong understanding of 
-             backend development. I am committed to delivering responsive, user-friendly and high-performance applications.
-          </p>
-          <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
 
+<
+  <!-- Skills Section -->
+<section class="py-5 bg-dark text-white" id="skill">
+  <div class="container">
+    <h2 class="text-center mb-4" data-aos="fade-up">Skills</h2>
+    <p class="lead text-center mb-5" data-aos="fade-up" data-aos-delay="200">
+      I build responsive, scalable web applications using Django, JavaScript, and modern frontend tools.
+    </p>
+    <div class="row gy-4">
+      
+      <div class="col-md-6" data-aos="fade-right">
+        <div class="p-4 bg-secondary rounded">
+          <h4>Python</h4>
+          <p>Efficient coding with strong problem-solving and algorithm skills.</p>
+          <div class="progress">
+            <div class="progress-bar bg-danger" style="width: 100%;">100%</div>
+          </div>
         </div>
       </div>
+
+      <div class="col-md-6" data-aos="fade-left">
+        <div class="p-4 bg-secondary rounded">
+          <h4>Django</h4>
+          <p>Builds secure, database-driven web apps with RESTful APIs.</p>
+          <div class="progress">
+            <div class="progress-bar bg-danger" style="width: 100%;">100%</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6" data-aos="fade-right">
+        <div class="p-4 bg-secondary rounded">
+          <h4>JavaScript</h4>
+          <p>Creates dynamic, interactive user interfaces with DOM control.</p>
+          <div class="progress">
+            <div class="progress-bar bg-danger" style="width: 100%;">100%</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6" data-aos="fade-left">
+        <div class="p-4 bg-secondary rounded">
+          <h4>React</h4>
+          <p>Develops component-based UIs with smooth state management.</p>
+          <div class="progress">
+            <div class="progress-bar bg-danger" style="width: 70%;">70%</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6" data-aos="fade-right">
+        <div class="p-4 bg-secondary rounded">
+          <h4>Bootstrap / Tailwind</h4>
+          <p>Designs responsive layouts with modern UI components.</p>
+          <div class="progress">
+            <div class="progress-bar bg-danger" style="width: 95%;">95%</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6" data-aos="fade-left">
+        <div class="p-4 bg-secondary rounded">
+          <h4>PostgreSQL</h4>
+          <p>Designs scalable databases with optimized queries.</p>
+          <div class="progress">
+            <div class="progress-bar bg-danger" style="width: 95%;">95%</div>
+          </div>
+        </div>
+      </div>
+
     </div>
+  </div>
+</section>
+
   
-    <div class="container overflow-hidden ">
-      <div class="row justify-content-xl-center gy-3 gy-sm-4">
-      
-        <div class="col-12 col-sm-6 col-xl-5 hid">
-          <div class="inner rounded shadow-sm p-3 p-md-4 p-xxl-5">
-            <h3 class="fw-bold mb-2 text-white">Python Programming</h3>
-            <p class="text-white fst-italic mb-4">
-              Proficient in writing clean and efficient Python code, with a strong understanding of data structures, algorithms, and problem-solving to build scalable and functional applications.
-            </p>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated progress-bar-width-1" role="progressbar" aria-label="Python" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"  style="width: 100%;">100%</div>
+  <!-- Projects Section -->
+  <section class="py-5 bg-light" id="projects">
+    <div class="container">
+      <h2 class="text-center text-danger mb-5" data-aos="zoom-in">Recent Projects</h2>
+      <div class="row g-4">
+        <div class="col-md-4" data-aos="fade-up">
+          <div class="card h-100">
+            <img src="img/figma.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>Animated Website from Figma</h5>
+              <a href="Projects/Figma project/index.html" class="btn btn-outline-danger">View Website →</a>
+            </div>
+          </div>
+        </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="card h-100">
+            <img src="img/logistics.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>Logistic Website</h5>
+              <a href="https://logistics-app-alpha.vercel.app/" class="btn btn-outline-danger">View Website →</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Add other projects the same way -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+          <div class="card h-100">
+            <img src="img/skilline.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>Educational Website</h5>
+              <a href="Projects/Skilline project/index.html" class="btn btn-outline-danger">View Website →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+          <div class="card h-100">
+            <img src="img/toys.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>Toy website</h5>
+              <a href="Projects/Toys/index.html" class="btn btn-outline-danger">View Website →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="800">
+          <div class="card h-100">
+            <img src="img/restaurant.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>Restaurant Website</h5>
+              <a href="Projects/Restaurant website/index.html" class="btn btn-outline-danger">View Website →</a>
             </div>
           </div>
         </div>
 
-        <div class="col-12 col-sm-6 col-xl-5 hid">
-          <div class="inner rounded shadow-sm p-3 p-md-4 p-xxl-5 ">
-            <h3 class="fw-bold mb-2 text-white">Django Framework</h3>
-            <p class="text-white fst-italic mb-4">
-              Skilled in developing robust and scalable web applications using Django, with expertise in implementing secure authentication, database management, and API integration to deliver dynamic and efficient solutions.
-
-            </p>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated progress-bar-width-2" role="progressbar" aria-label="Django" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"  style="width: 95%;">95%</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-sm-6 col-xl-5 hid">
-          <div class="inner rounded shadow-sm p-3 p-md-4 p-xxl-5">
-            <h3 class="fw-bold mb-2 text-white">JavaScript</h3>
-            <p class="text-white fst-italic mb-4">
-              Proficient in creating interactive and dynamic web experiences, with a strong understanding of core JavaScript concepts, DOM manipulation, and event-driven programming to enhance user interfaces
-
-            </p>
-              <div class="progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated progress-bar-width-3" role="progressbar" aria-label="Javascript" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"  style="width: 100%;">100%</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-sm-6 col-xl-5 hid">
-          <div class="inner rounded shadow-sm p-3 p-md-4 p-xxl-5">
-            <h3 class="fw-bold mb-2 text-white">React</h3>
-            <p class="text-white fst-italic mb-4">
-               Experienced in building dynamic and responsive user interfaces using React, with a focus on component-based architecture, state management, and efficient rendering for seamless web applications.
-            </p>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated progress-bar-width-4" role="progressbar" aria-label="React" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"  style="width: 70%;">70%</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-sm-6 col-xl-5 hid">
-            <div class="inner rounded shadow-sm p-3 p-md-4 p-xxl-5">
-              <h3 class="fw-bold mb-2 text-white">Bootstrap</h3>
-              <p class="text-white fst-italic mb-4">
-                Proficient in using Bootstrap to develop responsive and visually appealing web interfaces, ensuring consistency across different devices with modern design principles and pre-built components.
-              </p>
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated progress-bar-width-4" role="progressbar" aria-label="Bootstrap" aria-valuenow="105" aria-valuemin="0" aria-valuemax="100"  style="width: 100%;">100%</div>
-              </div>
-            </div>
-          </div>
          
-          
-          <div class="col-12 col-sm-6 col-xl-5 hid">
-            <div class="inner rounded shadow-sm p-3 p-md-4 p-xxl-5">
-              <h3 class="fw-bold mb-2 text-white">PostgresSQl</h3>
-              <p class="text-white fst-italic mb-4">
-                Proficient in using PostgreSQL for relational database management, with expertise in designing efficient schemas, writing complex queries, and ensuring data integrity and scalability for web applications.
-              </p>
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated progress-bar-width-4" role="progressbar" aria-label="PostgresSQL" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"  style="width: 75%;">75%</div>
-              
-            </div>
-            </div>
-          </div>
-
-       
-          
-            
       </div>
     </div>
   </section>
-                    
 <!-- Ends Here -->
 
 
-<!-- Section 4 -->
-
-<section class="fourthbody">
-    <p>Recent Web Development Project and Animation</p>
-    
+  <!-- Python Projects GitHub -->
+  <section class="py-5 bg-dark text-white">
     <div class="container">
-  
-        <div class="row gy-5" >
-  
-          <div class="col-sm-12 col-md-4 col-lg-4 hid">
-                  <div class="card h-100">
-                       <img src="img/figma.PNG" class="card-img-top" alt="No img">
-                       <div class="card-body">
-                          
-                  <h2 class="card-text">Animated Website from Figma<h2>
-                      <a href="Projects/Figma project/index.html" class="btn btn-outline-danger">View Website  &#8594</a>
-                       </div>
-                  </div>
-          </div>
-
-          <div class="col-sm-12 col-md-4 col-lg-4 hid">
-              <div class="card h-100">
-                  <img src="img/arsha.PNG" class="card-img-top" alt="No img">
-               
-                   <div class="card-body">
-                      <h2 class="card-text">Ready Made Portfolio<h2>                      
-                          <a href="Projects/Arsha/index.html" class="btn btn-outline-danger">View website &#8594</a>           
-                   </div>
-              </div>
-      </div>
-      
-      <div class="col-sm-12 col-md-4 col-lg-4 hid" >
-          <div class="card h-100">
-                  <img src="img/toys.PNG" class="card-img-top" alt="No img">            
-                  <div class="card-body">              
-                      <h2 class="card-text">Toy Website<h2>             
-                          <a href="Projects/Toys/index.html" class="btn btn-outline-danger">View website &#8594</a>                    
-               </div>
-          </div>
-      </div>
-      
-      </div>  
-    </div>
-    
-    
-      <div class="container" style="margin-top: 10px;">
-    
-        <div class="row gy-5" >
-          <div class="col-sm-12 col-md-4 col-lg-4 hid">
-                  <div class="card h-100">
-                       <img src="img/tic.PNG" class="card-img-top" alt="No img">
-                       <div class="card-body">
-                          
-                  <h2 class="card-text">Tic tak toe Game<h2>
-                      <a href="Projects/tic toe.html" class="btn btn-outline-danger">View Website &#8594</a>
-                       </div>
-                  </div>
-          </div>
-      
-          <div class="col-sm-12 col-md-4 col-lg-4 hid">
-              <div class="card h-100">                                   
-              <img src="img/calculator.PNG" class="card-img-top" alt="No img">                 
-              <div class="card-body">               
-                     <h2 class="card-text"> Animated Calculator</h2>                                    
-                 <a href="Projects/Calculator/calculator.html" class="btn btn-outline-danger">View Website &#8594</a>                     
-                   </div>
-              </div>
-      </div>
-      
-      <div class="col-sm-12 col-md-4 col-lg-4 hid" >
-          <div class="card h-100">
-               <img src="img/restaurant.PNG" class="card-img-top" alt="No img">
-               <div class="card-body">9
-                  <h2 class="card-text">Restaurant Website<h2>
-                  <a href="Projects/Restaurant website/index.html" class="btn btn-outline-danger">View Website &#8594</a>
-               </div>
-          </div>
-      </div>
-      
-      
-      
-      </div>
-  </div>
-  
-  <div class="container" style="margin-top: 10px;">
-    
-      <div class="row gy-5" >
-  
-        <div class="col-sm-12 col-md-4 col-lg-4 hid">
-                <div class="card h-100">
-                     <img src="img/skilline.PNG" class="card-img-top" alt="No img">
-                     <div class="card-body">
-                        
-                <h2 class="card-text">Educational Website<h2>
-                    <a href="Projects/Skilline project/index.html" class="btn btn-outline-danger btn-lg">View Website  &#8594</a>
-                     </div>
-                </div>
-        </div>
-
-    
-        <div class="col-sm-12 col-md-4 col-lg-4 hid" >
-            <div class="card h-100">
-                 <img src="img/Ecommerce.PNG" class="card-img-top" alt="No img">
-                 <div class="card-body">
-                    <h2 class="card-text">Ecommerce Website<h2>
-                    <a href="Projects/Somto website/index.html" class="btn btn-outline-danger">View Website &#8594</a>
-                 </div>
+      <h2 class="text-center mb-5" data-aos="zoom-in">Django Projects on GitHub</h2>
+      <div class="row g-4">
+        <div class="col-md-4" data-aos="fade-up">
+          <div class="card h-100 bg-secondary text-white">
+            <img src="img/ecom.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>Ecommerce Fully Functional Website</h5>
+              <a href="https://github.com/Tboiii-123/Ecommerce-Webiste" class="btn btn-outline-light">GitHub →</a>
             </div>
+          </div>
+        </div>
+
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="card h-100 bg-secondary text-white">
+            <img src="img/expense.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>Hotel Management System</h5>
+              <a href="https://github.com/Tboiii-123/Expense_Voyage-Application" class="btn btn-outline-light">GitHub →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+          <div class="card h-100 bg-secondary text-white">
+            <img src="img/email.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>Email Automation</h5>
+              <a href="https://github.com/Tboiii-123/Expense_Voyage-Application" class="btn btn-outline-light">GitHub →</a>
+            </div>
+          </div>
         </div>
         
-        
-      <div class="col-sm-12 col-md-4 col-lg-4 hid">
-          <div class="card h-100">
-              <img src="img/quiz.PNG" class="card-img-top" alt="No img">
-                   <div class="card-body">
-                      <h2 class="card-text">Quiz Application  Website</h2>
-                      <a href="Projects/Quiz/quiz.html" class="btn btn-outline-danger">View Website &#8594</a>            
-               </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+          <div class="card h-100 bg-secondary text-white">
+            <img src="img/logistics.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>Logistics and Tracking Website System</h5>
+              <a href="https://github.com/Tboiii-123/Altivox-Project" class="btn btn-outline-light">GitHub →</a>
+            </div>
           </div>
-      </div>
-         
-    
-    
-    </div>
-    
-  </div>
-  
-
-
-</section>
-<!-- Ends Here -->
-
-
-
-<!-- Python Project -->
-<section class="pythonsection">
-    <p>Check My Django Projects  on my Github</p>
-    <div class="container">
-        <div class="row gy-5" >
-          <div class="col-sm-12 col-md-4 col-lg-4 hid" >
-                  <div class="card h-100">
-                       <img src="img/expense.PNG" class="card-img-top" alt="No img">
-                       <div class="card-body">                          
-                  <h2 class="card-text">Hotel Management System<h2>
-                      <a href="https://github.com/Tboiii-123/Expense_Voyage-Application" class="btn btn-outline-danger">Github page &#8594</a>
-                       </div>
-                  </div>
-          </div>
-
-
-
-          <div class="col-sm-12 col-md-4 col-lg-4 hid">
-              <div class="card h-100">
-                  <img src="img/email.PNG" class="card-img-top" alt="No img">
-               
-                   <div class="card-body">
-                      <h2 class="card-text">Email Automation<h2>                      
-                          <a href="Projects/Arsha/index.html" class="btn btn-outline-danger">Github Page &#8594</a>           
-                   </div>
-              </div>
-      </div>
-      
-      <div class="col-sm-12 col-md-4 col-lg-4 hid" >
-          <div class="card h-100">
-                  <img src="img/todolist.PNG" class="card-img-top" alt="No img">            
-                  <div class="card-body">              
-                      <h2 class="card-text">Todo List connected to a databse<h2>             
-                          <a href="https://github.com/Tboiii-123/Django_TodoList" class="btn btn-outline-danger">GitHub page &#8594</a>                    
-               </div>
-          </div>
-      </div>
-      
-      </div>  
-    </div>
-    <!-- New -->
-    <div class="container mt-5">
-      <div class="row gy-5" >
-        <div class="col-sm-12 col-md-12 col-lg-12 hid" >
-                <div class="card h-100">
-                     <img src="img/ecom.PNG" class="card-img-top" alt="No img">
-                     <div class="card-body">                          
-                <h2 class="card-text">Ecomerce Fully Functional Website<h2>
-                    <a href="https://github.com/Tboiii-123/Ecommerce-Webiste" class="btn btn-outline-danger">Github page &#8594</a>
-                     </div>
-                </div>
         </div>
+        
+        <!-- Add other Django projects similarly -->
       </div>
-
     </div>
-    
-</section>
-
-<!-- Ends Here -->
-
-
-
-
-
-    
-        <!--Fifth Section  -->
-
+  </section>
 
 <!-- Ends Here -->
 
@@ -432,10 +310,10 @@ solutions that solve real-world problems at scale.
 <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
           
 
-        <p class="get">Get in Touch </p>
+        <p class="get" data-aos="zoom-in">Get in Touch </p>
         
-        <p>lawalhussein775@gmail.com</p>
-        <p>Social Media handle below <img src="img/down.png" alt="No_image"></p>
+        <p data-aos="zoom-in" data-aos-delay="200">lawalhussein775@gmail.com</p>
+        <p data-aos="zoom-in" data-aos-delay="300">Social Media handle below <img src="img/down.png" alt="No_image"></p>
         <p class="social">
           <a href="https://www.instagram.com/husseinlawal775/"><img src="img/instagram.png" alt="No image"></a>
        
@@ -460,9 +338,15 @@ solutions that solve real-world problems at scale.
             <!--Ends Here  -->
             
             
-    <script src="index.js"></script>
+  
 
-
-
+<!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  
+  
 </body>
 </html>
