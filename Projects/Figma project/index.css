@@ -54,8 +54,7 @@ nav div ul li button{
     display: flex;
     background-color: whitesmoke;
     padding-left: 10%;
-    height: 90vh;
-
+    height: 100vh;
 
 
 }
@@ -82,13 +81,6 @@ nav div ul li button{
 }
 
 
-
-
-.first:nth-child(2){
-    transition-delay: 500ms;
-
-
-}
 .section1 #second{
     margin-top: 0%;
   }
@@ -128,7 +120,7 @@ nav div ul li button{
     
 }
 .section1 #second{
-    margin-top: -50%;
+    margin-top: 20%;
   }
 
   
@@ -155,7 +147,7 @@ nav div ul li button{
 /* Section 2 styling */
 
 .section2{
-    margin-top: 150px;
+    margin-top: 50px;
 }
 .section2 div {
     display: flex;
@@ -167,14 +159,14 @@ nav div ul li button{
     font-weight: bolder;
 
 }
-.section2 div .manage{
+.section2 div p{
     margin-top: 30px;
     font-size: 50px;
     text-align: center;
-    font-weight: bolder;
-    width: 50%;
+    
     
 }
+
 
 .section2 div p{
     font-size: 20px;
@@ -183,17 +175,6 @@ nav div ul li button{
 
 
 
-.section2 span{
-    display: flex;
-    justify-content: center;
-}
-
-.section2 span img{
-    margin-top: 30px;
-    padding-left: 10%;
-    width: 14%;
-
-}
 
 @media(max-width:700px){
 
@@ -201,14 +182,6 @@ nav div ul li button{
         
         padding-left: 2%;
         width: 12%;
-    }
-    .section2 div .manage{
-        margin-top: 30px;
-        font-size: 40px;
-        text-align: center;
-        font-weight: bolder;
-        width: 90%;
-        
     }
     
     
@@ -224,80 +197,9 @@ nav div ul li button{
 
 /* Section3 styling */
 
-.section3{
-    display: flex;
-    justify-content: center;
-    margin-top: 150px;
-   
-}
-
-.section3 .inner{
-    margin-top: 50px;
-    margin-left: 1%;
-    padding: 10px 22px;
-    box-shadow:1px 1px 30px black;
-
-    cursor: pointer;           
-}
-
- .inner:nth-child(2){
-    transition-delay: 300ms;
-
-}
- .inner:nth-child(3){
-    transition-delay: 500ms;
-    
-
-}
 
 
 
-/* To center an img in a container */
-
-.section3 .inner img{
-    width: 20%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-.section3 .inner :hover{
-
-font-size: 23px;
-
-}
-
-
-.section3 .inner #member{
-    font-size: 20px;
-
-    font-weight: bolder;
-    text-align: center;
-
-}
-
-.section3 .inner p{
-    text-align: center;
-    
-}
-
-@media(max-width:700px){
-    .section3{
-        display:block;
-        
-    }    
-    .section3 .inner{
-        margin-top: 50px;
-        
-        padding: 10px 22px;
-        box-shadow:1px 1px 30px black;
-        width: 90%;
-        margin-left: 5%;
-                
-    }
-    
-
-}
 
 
 
@@ -895,64 +797,4 @@ footer .outer .secondouter{
            
 }
 
-
-/* Ends Here */
-
-.hid{
-    
-    opacity: 0;
-    
-    filter: blur(5px);
-            transform: translateX(-100%);
-            transition: all 1s;
-    
-}
-.hidden{
-
-    opacity: 0;
-    min-height: 75vh;
-    filter: blur(5px);
-            transform: translateX(-100%);
-            transition: all 1s;            
-}
-.show{
-    opacity: 1;
-    transform: translateX(0);
-            filter: blur(0);
-        
-            
-}
-
-@media(max-width:700px){
-    
-.hid{
-    
-    opacity: none;
-    
-    filter: none;
-            transform:none;
-            transition: none;
-
-    
-}
-.hidden{
-
-    opacity: none;
-    
-    filter: none;
-            transform:none;
-            transition: none;
-                   
-}
-.show{
-
-        
-    opacity: none;
-    
-    filter: none;
-            transform:none;
-            
-}
-
-}
 
